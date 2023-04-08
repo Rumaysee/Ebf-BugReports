@@ -1,5 +1,5 @@
-<!-- markdownlint-disable MD032 MD033-->
-# 🔥 **Josee9988's GitHub Project Template**
+
+# 🔥 **EBF BUG TRACKER**
 
 <p align="center">
 
