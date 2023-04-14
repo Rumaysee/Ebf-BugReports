@@ -1,0 +1,58 @@
+"addon"
+
+{
+//Інтерфейс
+"HUD_Gold"                                  "Золото"
+"HUD_Retries"                               "Спроби"
+
+//Панель інструментів
+"bulletin_board"                            "Інформація"
+"open_board"                                "Відкрити інформаційну панель EBF"
+"tab_general"                               "Загальна інформація"
+"tab_profile"                               "Профіль"
+"tab_patchnotes"                            "Зміни"
+"tab_donations"                             "Пожертвування"
+"Boosty"                                    "Підтримайте нас на Boosty!"
+"Discord"                                   "EpicBossFight Discord"
+"Patreon"                                   "Підтримайте нас на Patreon!"
+
+//Рівні значків
+"discord_sup"                               "Значок спільноти"
+"supporter_1"                               "Меценат І категорії"
+"supporter_2"                               "Меценат II категорії"
+"supporter_3"                               "Меценат III категорії"
+"dev"                                       "Розробник EBF"
+
+//Спливаюче табло
+"Score_Teamname"                            "Вбивця босів"
+"Score_Commands"                            "Допомога"
+"Score_Gold"                                "Золото"
+"Score_Damage_Dealt"                        "Нанесена шкода"
+"Score_Damage_Taken"                        "Отримана шкода"
+"Score_Healed_HP"                           "Зцілене здоров'я"
+"Score_MMR"                                 "Рейтинг"
+"Score_RANK"                                "РАНГ"
+"Score_Badge"                               "Статус"
+"Scoreboard_MuteVoice"                      "Вимкнути звук цього гравця"
+"Scoreboard_MuteText"                       "Вимкнути чат від цього гравця"
+
+//Кругле голосування
+"Round_No"                                  "Ні"
+"Round_Yes"                                 "Так"
+"vote_skip"                                 "Ви проголосували за перепустку"
+"vote_no"                                   "Ви проголосували проти."
+"Round_seconds"                             "Секунд"
+"Round_votes"                               "голос"
+"Round_s"                                   "а"
+"Round_skipper"                             "Авто пропуск голосування"
+"Round_skip_btn"                            "Пропустити"
+
+//НГ+ голосування
+"NGplus_query"                              "Ви хочете увійти до NewGame+?"
+"NGplus_note1"                              "Якщо вибрати Ні - гра завершиться перемогою."
+"NGplus_note2"                              "NG+ почнеться, якщо хоч один гравець проголосує"
+"NGplus_note3"                              "NG+ не впливає на Рейтинг."
+"NGplus_note4"                              "Цю гру можна безпечно залишити"
+"NGplus_yes_btn"                            "Так"
+"NGplus_no_btn"                             "Ні"
+}

@@ -1,15 +1,20 @@
 "addon"
 
 {
-	//General
+	//HUD
+	"HUD_Gold"				"Gold"
+	"HUD_Retries"			"Retries"
+
+	//Dashboard
 	"bulletin_board"		"Dashboard"
 	"open_board"			"Open EBF Dashboard"
 	"tab_general"			"General info"
 	"tab_profile"			"PROFILE"
 	"tab_patchnotes"		"patchnotes"
 	"tab_donations"			"donations"
-
-
+	"Boosty"				"Support us on Boosty!"
+	"Discord"				"EpicBossFight Discord"
+	"Patreon"				"Support us on Patreon!"
 
 	//Badge tiers
 	"discord_sup"			"Community Badge"
@@ -17,7 +22,6 @@
 	"supporter_2"			"Supporter II Badge"
 	"supporter_3"			"Supporter III Badge"
 	"dev"					"EBF Developer"
-
 
 	//Flyout scoreboard
 	"Score_Teamname"		"BOSS SLAYERS"
@@ -29,8 +33,26 @@
 	"Score_MMR"				"MMR W/L"
 	"Score_RANK"			"RANK"
 	"Score_Badge"			"Badge"
-
-
 	"Scoreboard_MuteVoice"	"Mute this player's Voice"
 	"Scoreboard_MuteText"	"Mute chat from this player"
+
+	//Round voting
+	"Round_No"				"No"
+	"Round_Yes"				"Yes"
+	"vote_skip"				"You voted to skip"
+	"vote_no"				"You voted no."
+	"Round_seconds"			"Seconds"
+	"Round_votes"			" vote"
+	"Round_s"				"s"
+	"Round_skipper"			"Auto skip vote"
+	"Round_skip_btn"		"Skip"
+
+	//NG+ voting
+	"NGplus_query"			"Do you wish to enter NewGame+?"
+	"NGplus_note1"			"If you choose NO - the game will end in Victory."
+	"NGplus_note2"			"IF at least one players votes Yes - NG+ will start"
+	"NGplus_note3"			"NG+ is not counted towards the leaderboards."
+	"NGplus_note4"			"This game is safe to leave"
+	"NGplus_yes_btn"		"Yes"
+	"NGplus_no_btn"			"No"
 }

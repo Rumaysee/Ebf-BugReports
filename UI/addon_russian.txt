@@ -1,36 +1,58 @@
 "addon"
 
 {
-	//Общий
-	"bulletin_board"			 "Панель инструментов"
-	"open_board"				 "Открыть информационную панель EBF"
-	"tab_general"				 "Общая информация"
-	"tab_profile"			 "ПРОФИЛЬ"
-	"tab_patchnotes"			 "патчноты"
-	"tab_donations"				 "пожертвования"
+	//Интерфейс
+	"HUD_Gold"						"Золото"
+	"HUD_Retries"					"Попытки"
 
-
+	//Панель инструментов
+	"bulletin_board"				"Информация"
+	"open_board"					"Открыть информационную панель EBF"
+	"tab_general"					"Общая информация"
+	"tab_profile"					"Профиль"
+	"tab_patchnotes"				"Изменения"
+	"tab_donations"					"Пожертвования"
+	"Boosty"						"Поддержите нас на Boosty!"
+	"Discord"						"EpicBossFight Discord"
+	"Patreon"						"Поддержите нас на Patreon!"
 
 	//Уровни значков
-	"discord_sup" 				"Значок сообщества"
-	"supporter_1"				"Меценат I категории" 
-	"supporter_2"				"Меценат II категории"
-	"supporter_3"				"Меценат III категории"
-	"dev"						"Разработчик EBF"
-
+	"discord_sup"					"Значок сообщества"
+	"supporter_1"					"Меценат I категории" 
+	"supporter_2"					"Меценат II категории"
+	"supporter_3"					"Меценат III категории"
+	"dev"							"Разработчик EBF"
 
 	//Всплывающее табло
-	"Score_Teamname"			"УБИЙЦА БОССОВ"
-	"Score_Commands" 			"Помощь"
-	"Score_Gold" 				"Золото"
-	"Score_Damage_Dealt" 		"Нанесенный урон"
-	"Score_Damage_Taken" 		"Полученный урон"
-	"Score_Healed_HP" 			"Исцеленное здоровье"
-	"Score_MMR" 				"Рейтинг"
-	"Score_RANK" 				"РАНГ"
-	"Score_Badge" 				"Статус"
+	"Score_Teamname"				"УБИЙЦА БОССОВ"
+	"Score_Commands"				"Помощь"
+	"Score_Gold"					"Золото"
+	"Score_Damage_Dealt"			"Нанесенный урон"
+	"Score_Damage_Taken"			"Полученный урон"
+	"Score_Healed_HP"				"Исцелённое здоровье"
+	"Score_MMR"						"Рейтинг"
+	"Score_RANK"					"РАНГ"
+	"Score_Badge"					"Статус"
+	"Scoreboard_MuteVoice"			"Отключить звук этого игрока"
+	"Scoreboard_MuteText"			"Отключить чат от этого игрока"
 
+	//Круглое голосование
+	"Round_No"						"Нет"
+	"Round_Yes"						"Да"
+	"vote_skip"						"Вы проголосовали за пропуск"
+	"vote_no"						"Вы проголосовали против."
+	"Round_seconds"					"Секунд"
+	"Round_votes"					" голос"
+	"Round_s"						"а"
+	"Round_skipper"					"Авто пропуск голосования"
+	"Round_skip_btn"				"Пропустить"
 
-	"Scoreboard_MuteVoice" 		"Отключить звук этого игрока"
-	"Scoreboard_MuteText" 		"Отключить чат от этого игрока"
+	//НГ+ голосование
+	"NGplus_query"					"Вы хотите войти в NewGame+?"
+	"NGplus_note1"					"Если выбрать Нет - игра завершится победой."
+	"NGplus_note2"					"NG+ начнётся если хоть один игрок проголосует"
+	"NGplus_note3"					"NG+ не влияет на Рейтинг."
+	"NGplus_note4"					"Эту игру можно безопасно покинуть"
+	"NGplus_yes_btn"				"Да"
+	"NGplus_no_btn"					"Нет"
 }
