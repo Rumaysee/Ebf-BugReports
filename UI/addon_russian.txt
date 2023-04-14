@@ -1,0 +1,36 @@
+"addon"
+
+{
+	//Общий
+	"bulletin_board"			 "Панель инструментов"
+	"open_board"				 "Открыть информационную панель EBF"
+	"tab_general"				 "Общая информация"
+	"tab_profile"			 "ПРОФИЛЬ"
+	"tab_patchnotes"			 "патчноты"
+	"tab_donations"				 "пожертвования"
+
+
+
+	//Уровни значков
+	"discord_sup" 				"Значок сообщества"
+	"supporter_1"				"Меценат I категории" 
+	"supporter_2"				"Меценат II категории"
+	"supporter_3"				"Меценат III категории"
+	"dev"						"Разработчик EBF"
+
+
+	//Всплывающее табло
+	"Score_Teamname"			"УБИЙЦА БОССОВ"
+	"Score_Commands" 			"Помощь"
+	"Score_Gold" 				"Золото"
+	"Score_Damage_Dealt" 		"Нанесенный урон"
+	"Score_Damage_Taken" 		"Полученный урон"
+	"Score_Healed_HP" 			"Исцеленное здоровье"
+	"Score_MMR" 				"Рейтинг"
+	"Score_RANK" 				"РАНГ"
+	"Score_Badge" 				"Статус"
+
+
+	"Scoreboard_MuteVoice" 		"Отключить звук этого игрока"
+	"Scoreboard_MuteText" 		"Отключить чат от этого игрока"
+}

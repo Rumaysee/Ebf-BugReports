@@ -1,0 +1,36 @@
+"addon"
+
+{
+	//General
+	"bulletin_board"		"Dashboard"
+	"open_board"			"Open EBF Dashboard"
+	"tab_general"			"General info"
+	"tab_profile"			"PROFILE"
+	"tab_patchnotes"		"patchnotes"
+	"tab_donations"			"donations"
+
+
+
+	//Badge tiers
+	"discord_sup"			"Community Badge"
+	"supporter_1"			"Supporter I Badge"
+	"supporter_2"			"Supporter II Badge"
+	"supporter_3"			"Supporter III Badge"
+	"dev"					"EBF Developer"
+
+
+	//Flyout scoreboard
+	"Score_Teamname"		"BOSS SLAYERS"
+	"Score_Commands"		"Commands"
+	"Score_Gold"			"Gold"
+	"Score_Damage_Dealt"	"Damage Dealt"
+	"Score_Damage_Taken"	"Damage Taken"
+	"Score_Healed_HP"		"Healed HP"
+	"Score_MMR"				"MMR W/L"
+	"Score_RANK"			"RANK"
+	"Score_Badge"			"Badge"
+
+
+	"Scoreboard_MuteVoice"	"Mute this player's Voice"
+	"Scoreboard_MuteText"	"Mute chat from this player"
+}
