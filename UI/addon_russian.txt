@@ -25,14 +25,14 @@
 
 	//Всплывающее табло
 	"Score_Teamname"				"УБИЙЦА БОССОВ"
-	"Score_Commands"				"Помощь"
+	"Score_Commands"				"Команды"
 	"Score_Gold"					"Золото"
 	"Score_Damage_Dealt"			"Нанесенный урон"
 	"Score_Damage_Taken"			"Полученный урон"
 	"Score_Healed_HP"				"Исцелённое здоровье"
 	"Score_MMR"						"Рейтинг"
 	"Score_RANK"					"РАНГ"
-	"Score_Badge"					"Статус"
+	"Score_Badge"					"Значок"
 	"Scoreboard_MuteVoice"			"Отключить звук этого игрока"
 	"Scoreboard_MuteText"			"Отключить чат от этого игрока"
 
