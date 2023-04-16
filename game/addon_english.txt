@@ -53,10 +53,11 @@
 		"WAIT_60_AFTER_VOTE"    "You have to wait 60 Sec after a vote"
 		"DIFF_VOTE_IN_PROGRESS"    "A vote for difficulty is allready in progress"
 		"CANT_VOTE_IN_FIGHT"    "You can't change difficulty when In arena"
+		// GENERIC ======================================================================================================
+		"DOTA_Tooltip_modifier_last_man_standing"										"Last Man Standing"
+		"DOTA_Tooltip_modifier_last_man_standing_Description"							"You are unable to go invisible, abilities and items that ignore true-sight like Smoke of Deceit ignore this."
+		
 		// BOSSES =======================================================================================================
-		"DOTA_Tooltip_ability_true_sight_boss"											"Boss True Sight"
-		"DOTA_Tooltip_ability_true_sight_boss_Description"								"Grants the ability to see invisible units within 800 range. "
-
 		"npc_dota_boss_kobold_serf"														"Kobold Serf"
 		"npc_dota_boss_kobold_warrior"													"Kobold Warrior"
 		"npc_dota_boss_kobold_overseer"													"Kobold Overseer"
@@ -2212,11 +2213,18 @@
 		"DOTA_Tooltip_modifier_item_ghost_form_enemy_Description" 							"The target is disarmed and slowed."
 		
 		// ITEMS - Eternal Shroud
+		"DOTA_Tooltip_ability_item_eternal_shroud"    										"Eternal Shroud"
+		"DOTA_Tooltip_ability_item_eternal_shroud_Description"    							"<h1>Active: Shroud</h1> Creates a spell shield that absorbs up to %barrier_block% magical damage, converting %barrier_to_mana%%% of the damage taken into mana.  Lasts %barrier_duration% seconds."
+		"DOTA_Tooltip_ability_item_eternal_shroud_Lore"										"A pristine hood that feeds upon strife to empower its owner."
+		"DOTA_Tooltip_ability_item_eternal_shroud_bonus_spell_resist"						"%+$spell_resist"
+		"DOTA_Tooltip_ability_item_eternal_shroud_bonus_regen"								"+$hp_regen"
+		"DOTA_Tooltip_ability_item_eternal_shroud_spell_lifesteal"							"%+$spell_lifesteal"
+		
 		"DOTA_Tooltip_ability_item_eternal_shroud_2"    									"Unholy Shroud"
-		"DOTA_Tooltip_ability_item_eternal_shroud_2_Description"    						"<h1>Active: Shroud</h1> Creates a spell shield that absorbs up to %barrier_block% magical damage, converting damage taken into mana.  Lasts %barrier_duration% seconds."
+		"DOTA_Tooltip_ability_item_eternal_shroud_2_Description"    						"<h1>Active: Shroud</h1> Creates a spell shield that absorbs up to %barrier_block% magical damage, converting %barrier_to_mana%%% of the damage taken into mana.  Lasts %barrier_duration% seconds."
 		"DOTA_Tooltip_ability_item_eternal_shroud_2_Lore"									"A pristine hood that feeds upon strife to empower its owner."
 		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_spell_resist"						"%+$spell_resist"
-		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_health_regen"						"+$hp_regen"
+		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_regen"							"+$hp_regen"
 		"DOTA_Tooltip_ability_item_eternal_shroud_2_spell_lifesteal"						"%+$spell_lifesteal"
 		
 		// ITEMS - Kaya and Sange
@@ -2954,174 +2962,11 @@
 //Ability==============================================================================================================================
 //Ability==============================================================================================================================
 
-
-		"DOTA_Tooltip_ability_zeus_ebf_thundergod_legacy"                                                            "Thundergod's Legacy"
-		"DOTA_Tooltip_ability_zeus_ebf_thundergod_legacy_Description"                                        "Grants bonus intelligence and attack range to Zeus and his allies."
-		"DOTA_Tooltip_ability_zeus_ebf_thundergod_legacy_Lore"                                               "Books writen by the great zeus before he became mortal."
-		"DOTA_Tooltip_ability_zeus_ebf_thundergod_legacy_radius"                                             "Radius:"
-		"DOTA_Tooltip_ability_zeus_ebf_thundergod_legacy_bonus_int"                                             "Intellect: +"
-		"DOTA_Tooltip_ability_zeus_ebf_thundergod_legacy_bonus_range"                                             "Attack range: + "
-		"DOTA_Tooltip_ability_zeus_ebf_thundergod_legacy_bonus_range_aura"                                             "Attack range (aura): + "
-		"DOTA_Tooltip_ability_zeus_ebf_thundergod_legacy_bonus_int_aura"                                             "Intellect (aura): + "
-		"DOTA_Tooltip_thundergodsaura"                                             "Thundergod's legacy aura"
-		"DOTA_Tooltip_thundergodsaura_Description"                                             "Grants bonus attack range and intelligence."
- 
-		"DOTA_Tooltip_ability_lc_ebf_war_fury"                                            "War Fury"
-		"DOTA_Tooltip_ability_lc_ebf_war_fury_lore"                                            "Legion commander bring out fury from her allies to fight as champions"
-		"DOTA_Tooltip_ability_lc_ebf_war_fury_Description"                                "Increase the damage of Legion commander and her allies"
-		"DOTA_Tooltip_ability_lc_ebf_war_fury_bonus_damage_aura"                          "Bonus Damage aura:"
-		"DOTA_Tooltip_ability_lc_ebf_war_fury_bonus_damage"                               "Bonus Damage self:"
-		"DOTA_Tooltip_ability_lc_ebf_war_fury_radius"                                "RADIUS:"
-
 		"DOTA_Tooltip_ability_spectre_ebf_haunt"										"Trauma"
 		"DOTA_Tooltip_ability_spectre_ebf_haunt_lore"                                   "Spectre's attacks are eternally remembered her victims."
 		"DOTA_Tooltip_ability_spectre_ebf_haunt_Description"							"Each attack reduces enemy armor; every attack increases the total armor reduction. Lasts %duration% seconds."
 		"DOTA_Tooltip_ability_spectre_ebf_haunt_armor_reduction_perstack"				"ARMOR REDUCTION/HIT:"
 		"DOTA_Tooltip_ability_spectre_ebf_haunt_duration"								"DURATION:"
-
-		"DOTA_Tooltip_ability_spectre_ebf_desolate"                                       "Desolate"
-		"DOTA_Tooltip_ability_spectre_ebf_desolate_lore"                                       "The frightening aura of spectre allow allies to strengthen thenselves"
-		"DOTA_Tooltip_ability_spectre_ebf_desolate_Description"                           "Increases the health of Spectre and her allies"
-		"DOTA_Tooltip_ability_spectre_ebf_desolate_bonus_hp_self"                          "+$health"
-		"DOTA_Tooltip_ability_spectre_ebf_desolate_bonus_hp"                          "+$health (AURA)"
-		"DOTA_Tooltip_ability_spectre_ebf_desolate_radius"                                "RADIUS:"
-
-		"DOTA_Tooltip_ability_razor_damage_link"                                       "Damage Link"
-		"DOTA_Tooltip_ability_razor_damage_link_Description"                           "Channel your spell. Once the channel is finished, you steal a certain number of damage from the enemy."
-		"DOTA_Tooltip_ability_razor_damage_link_bonus_damage"                          "Damage steal: "
-
-		"DOTA_Tooltip_ability_outworld_otherworld_ressource"                              "Outworld's Resources"
-		"DOTA_Tooltip_ability_outworld_otherworld_ressource_Description"                  "Grants bonus mana to you and your allies"
-		"DOTA_Tooltip_ability_outworld_otherworld_ressource_Note0"                        ""
-		"DOTA_Tooltip_ability_outworld_otherworld_ressource_Lore"                         "The Obsidian destroyer can draw great magic power from world he destroyed"
-		"DOTA_Tooltip_ability_outworld_otherworld_ressource_bonus_mana_self"                "BONUS MANA FOR SELF:"
-		"DOTA_Tooltip_ability_outworld_otherworld_ressource_bonus_mana"                     "BONUS MANA AURA:"
-		"DOTA_Tooltip_ability_outworld_otherworld_ressource_radius"                       "RADIUS:"
-
-		"DOTA_Tooltip_ressourceaura"                                                      "Outworld's Resources"
-		"DOTA_Tooltip_ressourceaura_Description"                                          "Grants bonus mana"
-
-		"DOTA_Tooltip_ability_doom_devour"                                                "Devour (EBF)"
-		"DOTA_Tooltip_ability_doom_devour_Description"                                    "When used on an enemy, it grants you bonus gold"
-		"DOTA_Tooltip_ability_doom_devour_Lore"                                           "No actual lore. But you can eat damn creeps"
-		"DOTA_Tooltip_ability_doom_devour_level_kill"                                     "Max boss level ability can kill : "
-		"DOTA_Tooltip_ability_doom_devour_chance_to_kill"                                 "%Chance to kill: "
-		"DOTA_Tooltip_ability_doom_devour_gold"                                           "Bonus gold:"
-		"DOTA_Tooltip_ability_doom_devour_gold_on_kill"                                   "Bonus gold on kill:"
-		"DOTA_Tooltip_ability_doom_devour_duration"                                       "Cooldown:"
-		"DOTA_Tooltip_ability_doom_devour_total_gold"                                     "Total gold:"
-
-		"DOTA_Tooltip_ability_slark_ebf_damage_steal"										"Attack Shift"
-		"DOTA_Tooltip_ability_slark_ebf_damage_steal_Description"							"With each attack, Slark steals some damage."
-		"DOTA_Tooltip_ability_slark_ebf_damage_steal_Note0"									""
-		"DOTA_Tooltip_ability_slark_ebf_damage_steal_Lore"									"Slark experience allow him to addapt his fighting style to his ennemies"
-		"DOTA_Tooltip_ability_slark_ebf_damage_steal_attack_reduction_perstack"				"ATTACK STEAL/HIT:"
-		"DOTA_Tooltip_ability_slark_ebf_damage_steal_duration"								"DURATION:"	
-		"DOTA_Tooltip_steal_c"																"Attack Shift - Buff"
-		"DOTA_Tooltip_steal_c_Description"													"Attack damage increased by %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE%"
-		"DOTA_Tooltip_steal_t"																"Attack Shift - Debuff"
-		"DOTA_Tooltip_steal_t_Description"													"Attack damage reduced by %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE%"
-
-		"DOTA_Tooltip_ability_lycan_summon_wolves_datadriven"                             "Summon Wolves"
-		"DOTA_Tooltip_ability_lycan_summon_wolves_datadriven_Description"                 "Just summons wolves to help him, nothing much."
-		"DOTA_Tooltip_ability_lycan_summon_wolves_datadriven_Note0"                       ""
-		"DOTA_Tooltip_ability_lycan_summon_wolves_datadriven_Lore"                        ""
-		"DOTA_Tooltip_ability_lycan_summon_wolves_datadriven_wolf_duration"               "Wolves DURATION:"
-		"DOTA_Tooltip_ability_lycan_summon_wolves_datadriven_wolf_damage"                 "Wolves DAMAGE:"
-		"DOTA_Tooltip_ability_lycan_summon_wolves_datadriven_wolf_hp"                     "Wolves HP:"
-
-		"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_datadriven"                      "Mystic Flare"
-		"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_datadriven_Description"          "Aghanim's Scepter makes Mystic Flare deal pure damage"
-		"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_datadriven_Note0"                ""
-		"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_datadriven_Lore"                 ""
-		"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_datadriven_radius"               "RADIUS:"
-		"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_datadriven_duration"             "DURATION:"
-		"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_datadriven_damage"               "DAMAGE:"
-
-		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven"                   "Concussive Shot"
-		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven_Description"       ""
-		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven_Note0"             ""
-		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven_Lore"              ""
-		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven_launch_radius"     "LAUNCH RADIUS:"
-		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven_slow_radius"       "SLOW RADIUS:"
-		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven_damage"            "Damage:"
-		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven_slow_duration"     "Slow duration:"
-		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven_movement_speed_pct"              "%Movement speed reduction:"
-
-
-		"DOTA_Tooltip_ability_clinkz_death_pact_custom"                                          "Death Pact"
-		"DOTA_Tooltip_ability_clinkz_death_pact_custom_Description"                              "Clinkz makes a forbiden pact to the enemy boss, damaging it, and gaining damage and health based on boss's health"
-		"DOTA_Tooltip_ability_clinkz_death_pact_custom_Note0"                                    ""
-		"DOTA_Tooltip_ability_clinkz_death_pact_custom_Lore"                                     ""
-		"DOTA_Tooltip_ability_clinkz_death_pact_custom_hp_percent"                               "%Health gain from boss' hp:"
-		"DOTA_Tooltip_ability_clinkz_death_pact_custom_damage_percent"                           "%Damage from hp: "
-		"DOTA_Tooltip_ability_clinkz_death_pact_custom_duration"                                 "Duration:"
-
-		"DOTA_Tooltip_death_pack"                                                         "Death Pact"
-		"DOTA_Tooltip_death_pack_Description"                                             "You succesfully ate a boss and received its full power"
-
-		"DOTA_Tooltip_lesser_death_pack"                                                  "Lesser Death Pact"
-		"DOTA_Tooltip_lesser_death_pack_Description"                                      "You failed to eat the boss and received only part of its power"
-
-		"DOTA_Tooltip_ability_ursa_claw"                                                  "Fire Claws"
-		"DOTA_Tooltip_ability_ursa_claw_Description"                                      "A part of Ursa's physical damage is turned into <font color='#FF1010'>pure</font> damage."
-		"DOTA_Tooltip_ability_ursa_claw_Note0"                                            "Doesn't stack with cleave"
-		"DOTA_Tooltip_ability_ursa_claw_Lore"                                             "Ursa's Fire claws allow him to pierce the strongest armor"
-		"DOTA_Tooltip_ability_ursa_claw_Pierce_percent"                                   "%Pure Damage :"
-		"DOTA_Tooltip_ability_ursa_claw_duration"                                         "Duration:"
-		"DOTA_Tooltip_ability_ursa_claw_Pierce_percent_fury"                                   "%Pure Damage Fury swipe:"
-		"DOTA_Tooltip_ability_ursa_claw_physical_fury_damage_mult"                                         "%Physical Damage multiplier Fury Swipe:"
-
-		"DOTA_Tooltip_ability_ursa_fury_swipes_ebf"                                                             "Fury Swipes"
-		"DOTA_Tooltip_ability_ursa_fury_swipes_ebf_Description"                                 "<font color='#70EA72'>Each hit becomes more powerful.</font>"
-		"DOTA_Tooltip_ability_ursa_fury_swipes_ebf_Lore"                                                "...."
-		"DOTA_Tooltip_ability_ursa_fury_swipes_ebf_duration"                    "Reset time:"
-		"DOTA_Tooltip_ability_ursa_fury_swipes_ebf_bonus_damage_per_stack"                    "Bonus Damage Per Stack:"
-
-		"DOTA_Tooltip_ability_chen_holy_bless"                                            "Devil's Bless"
-		"DOTA_Tooltip_ability_chen_holy_bless_Description"                                "When used on an ally, they gain a part of Chen's current damage"
-		"DOTA_Tooltip_ability_chen_holy_bless_Note0"                                      ""
-		"DOTA_Tooltip_ability_chen_holy_bless_Lore"                                       ""
-		"DOTA_Tooltip_ability_chen_holy_bless_damage_percent"                             "%Bonus Damage:"
-		"DOTA_Tooltip_ability_chen_holy_bless_duration"                                   "Duration:"
-
-		"DOTA_Tooltip_ability_pudge_flesh_heap_datadriven"                                "Skin Heap"
-		"DOTA_Tooltip_ability_pudge_flesh_heap_datadriven_Description"                    "Each attack increases Pudge's maximum hp for a short duration"
-		"DOTA_Tooltip_ability_pudge_flesh_heap_datadriven_Note0"                          "Does not work on allied units"
-		"DOTA_Tooltip_ability_pudge_flesh_heap_datadriven_Lore"                           ""
-		"DOTA_Tooltip_ability_pudge_flesh_heap_datadriven_health_bonus_perstack"               "Bonus Health per hit:"
-		"DOTA_Tooltip_ability_pudge_flesh_heap_datadriven_duration"                            "Bonus Health Duration:"
-
-		"DOTA_Tooltip_ability_tinker_missile_ebf"                                "Heat-Seeking Missile"
-		"DOTA_Tooltip_ability_tinker_missile_ebf_Description"                    "Aghanim's Scepter increases damage, doubles the amount of targets and increase range to 3000."
-		"DOTA_Tooltip_ability_tinker_missile_ebf_Note0"                          ""
-		"DOTA_Tooltip_ability_tinker_missile_ebf_Lore"                           ""
-		"DOTA_Tooltip_ability_tinker_missile_ebf_targets"          "Max targest:"
-		"DOTA_Tooltip_ability_tinker_missile_ebf_radius"                         "Search Radius:" 
-		"DOTA_Tooltip_ability_tinker_missile_ebf_damage_agh"                         "<font color='#70EA72'>Damage with aghanim</font>:"
-		"DOTA_Tooltip_ability_tinker_missile_ebf_radius_agh"                         "<font color='#70EA72'>Radius with aghanim</font>:"
-		"DOTA_Tooltip_ability_tinker_missile_ebf_target_agh"                         "<font color='#70EA72'>Max Target with aghanim</font>:"
-
-		"DOTA_Tooltip_ability_tinker_rearm_datadriven"                                "Rearm"
-		"DOTA_Tooltip_ability_tinker_rearm_datadriven_Description"                    "Resets cooldown on your items and abilities."
-		"DOTA_Tooltip_ability_tinker_rearm_datadriven_Note0"                          ""
-		"DOTA_Tooltip_ability_tinker_rearm_datadriven_Lore"                           ""
-		"DOTA_Tooltip_ability_tinker_rearm_datadriven_channel_tooltip"          "Channel time:"
-
-		"DOTA_Tooltip_ability_nyx_assassin_carapace"                    "Hardened Carapace"
-		"DOTA_Tooltip_ability_nyx_assassin_carapace_Description"                    "Increases Nyx's armor. "
-		"DOTA_Tooltip_ability_nyx_assassin_carapace_bonus_armor"          "+$armor"
-
-		"DOTA_Tooltip_ability_nyx_hide"                                 "Shadow Dodge"
-		"DOTA_Tooltip_ability_nyx_hide_Description"                    "Nyx becomes invisible and gains full evasion for 4 seconds."
-		"DOTA_Tooltip_ability_nyx_hide_bonus_evasion"          "%+$evasion"
-		"DOTA_Tooltip_ability_nyx_hide_duration"          "Duration : "
-
-		"DOTA_Tooltip_ability_witch_doctor_witch_control"                                 "Witch control"
-		"DOTA_Tooltip_ability_witch_doctor_witch_control_Description"                    "Control a boss for a short duration. Once control is lost, the boss regenerates a percentage of its life.\n\n<font color='#70EA72'>Aghanim's Scepter removes health regeneration, and, if the target's level is low enough, it will die when control is lost.</font>"
-		"DOTA_Tooltip_ability_witch_doctor_witch_control_agh_level"                    "<font color='#70EA72'>Minimum level to kill unit with scepter: </font>"
-		"DOTA_Tooltip_ability_witch_doctor_witch_control_duration"          "Duration: "
-		"DOTA_Tooltip_ability_witch_doctor_witch_control_hp_regen"          "%Boss Health regen on control lost: "
 
 		"DOTA_Tooltip_ability_wisp_sacrifice"												"Sacrifice"
 		"DOTA_Tooltip_ability_wisp_sacrifice_Description"									"Wisp sacrifices his abilities and life force to make his allies invulnerable. Wisp is disarmed, silenced, muted and slowed, while losing a percentage of his maximum health over the duration and being prevented from healing.\nIf Wisp stays alive for the entire duration, his allies are restored to life."
@@ -3135,38 +2980,7 @@
 		"DOTA_Tooltip_modifier_wisp_sacrifice_sacrifice_Description"						"Losing health, slowed, muted, silenced, disarmed. Allies are resurrected if you survive."
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_wisp_6"									"-{s:value}s Sacrifice Cooldown"
-
-		"DOTA_Tooltip_ability_crystal_maiden_crystal_spear"                                     "Crystal Spear"
-		"DOTA_Tooltip_ability_crystal_maiden_crystal_spear_Description"                    "Crystal Maiden launches a Cystal Energy ball which throws crystal spears in 1/2/3/4 directions. Enemies are damaged and slowed."
-		"DOTA_Tooltip_ability_crystal_maiden_crystal_spear_damage"                    "Damage: "
-		"DOTA_Tooltip_ability_crystal_maiden_crystal_spear_delay"                    "Delay before spears are launched: "
-		"DOTA_Tooltip_ability_crystal_maiden_crystal_spear_source_count"                    "Number of directions: "
-		"DOTA_Tooltip_ability_crystal_maiden_crystal_spear_distance"                    "Spear travel distance: "
-		"DOTA_Tooltip_ability_crystal_maiden_crystal_spear_slow_percent"                    "%Movement speed: "
-
-		"DOTA_Tooltip_ability_crystal_maiden_frozen_aura"                                     "Frozen aura"
-		"DOTA_Tooltip_ability_crystal_maiden_frozen_aura_Description"                    "Increases the damage of your allies based on your total mana. Global, disabled on death."
-		"DOTA_Tooltip_ability_crystal_maiden_frozen_aura_Lore"                    "The Crystal Maiden strengthens her allies' weapons with ice, allowing them to cause frostbite to enemies"
-		"DOTA_Tooltip_ability_crystal_maiden_frozen_aura_mana_percent_damage"                    "%MaxMana to damage: "
-
-		"DOTA_Tooltip_crystal_aura_indication"                                      "Crystal Frozen Aura"
-
-		"DOTA_Tooltip_ability_Blood_Seeker_Blood_Smell"                                     "Blood Thirst"
-		"DOTA_Tooltip_ability_Blood_Seeker_Blood_Smell_Description"                    "Blood Seeker deal bonus damage based on the boss' missing health."
-		"DOTA_Tooltip_ability_Blood_Seeker_Blood_Smell_Note0"                    "Bonus damage is physical, and cannot crit or lifesteal."
-		"DOTA_Tooltip_ability_Blood_Seeker_Blood_Smell_percent"                    "%damage from missing health: "
-
-		"DOTA_Tooltip_ability_boss_zombie_acid_spit_ebf"                                     "Nether Toxin (EBF)"
-		"DOTA_Tooltip_ability_boss_zombie_acid_spit_ebf_Description"                    "Viper deals bonus magical damage based on the boss' missing health."
-		"DOTA_Tooltip_ability_boss_zombie_acid_spit_ebf_Note0"                    "Bonus damage is magical, and cannot crit or lifesteal."
-		"DOTA_Tooltip_ability_boss_zombie_acid_spit_ebf_percent"                    "%damage from missing health: "
-
-		"DOTA_Tooltip_ability_juggernaut_blade_dance_ebf"                                     "Blade dance (EBF)"
-		"DOTA_Tooltip_ability_juggernaut_blade_dance_ebf_Description"                    "Deals critical damage."
-		"DOTA_Tooltip_ability_juggernaut_blade_dance_ebf_Note0"                    ""
-		"DOTA_Tooltip_ability_juggernaut_blade_dance_ebf_critical_bonus"                    "%Critical damage: "
-		"DOTA_Tooltip_ability_juggernaut_blade_dance_ebf_critical_chance"                    "%Critical chance: "
-
+		
 		"DOTA_Tooltip_ability_terrorblade_attack_speed"									"Demon Frenzy"
 		"DOTA_Tooltip_ability_terrorblade_attack_speed_Description"						"Terrorblade gains attack speed and evasion."
 		"DOTA_Tooltip_ability_terrorblade_attack_speed_bonus_attack_speed"				"ATTACK SPEED:"
@@ -3192,165 +3006,12 @@
 		"DOTA_Tooltip_modifier_lion_finger_of_death_ebf_death_Description"					"Finger of Death gaining +%dMODIFIER_PROPERTY_TOOLTIP% damage per unit kill."
 		"DOTA_Tooltip_ability_special_bonusspecial_bonus_finger_of_death_health_per_kill"				"+{s:value} Max Health Per Finger of Death Stack Kill"
 		
-		"DOTA_Tooltip_ability_skeleton_king_mortal_strike_ebf"                                     "Mortal Strike"
-		"DOTA_Tooltip_ability_skeleton_king_mortal_strike_ebf_Description"                    "Wraith King passively gains a chance to deals bonus damage on an attack."
-		"DOTA_Tooltip_ability_skeleton_king_mortal_strike_ebf_Note0"                    ""
-		"DOTA_Tooltip_ability_skeleton_king_mortal_strike_ebf_critical_bonus"                    "%CRITICAL DAMAGE: "
-		"DOTA_Tooltip_ability_skeleton_king_mortal_strike_ebf_critical_chance"                    "%CRITICAL CHANCE: "
-
-		"DOTA_Tooltip_ability_doom_bringer_doom_ebf"                                     "Doom"
-		"DOTA_Tooltip_ability_doom_bringer_doom_ebf_Description"                    "Silence the target and deal damage overtime"
-		"DOTA_Tooltip_ability_doom_bringer_doom_ebfdoom_bringer_doom_ebf_Note0"                    ""
-		"DOTA_Tooltip_ability_doom_bringer_doom_ebf_critical_bonus"                    "%Critical damage: "
-		"DOTA_Tooltip_ability_doom_bringer_doom_ebf_critical_chance"                    "%Critical chance: "
-
-		"DOTA_Tooltip_ability_invoker_fire_ellement"                                     "Element : Fire"
-		"DOTA_Tooltip_ability_invoker_fire_ellement_Description"                    "Increase your auto-attack damage, and allow you to use FIRE ellement when using combine "
-		"DOTA_Tooltip_ability_invoker_fire_ellement_Note0"                    ""
-		"DOTA_Tooltip_ability_invoker_fire_ellement_bonus_damage_per_instance"                    "Bonus Damage per instance : "
-		"DOTA_Tooltip_ability_invoker_fire_ellement_ellement_power"                    "Element power : "
-
-		"DOTA_Tooltip_ability_invoker_ice_ellement"                                     "Element : Ice"
-		"DOTA_Tooltip_ability_invoker_ice_ellement_Description"                    "Increase your Mana regen, and allow you to use ICE ellement when using combine"
-		"DOTA_Tooltip_ability_invoker_ice_ellement_Note0"                    ""
-		"DOTA_Tooltip_ability_invoker_ice_ellement_bonus_mana_regen_per_instance"                    "Bonus Mana regen per instance : "
-		"DOTA_Tooltip_ability_invoker_ice_ellement_ellement_power"                    "Element power : "
-
-		"DOTA_Tooltip_ability_invoker_wind_ellement"                                     "Element : Wind"
-		"DOTA_Tooltip_ability_invoker_wind_ellement_Description"                    "Increase your Mana regen, and allow you to use WIND ellement when using combine"
-		"DOTA_Tooltip_ability_invoker_wind_ellement_Note0"                    ""
-		"DOTA_Tooltip_ability_invoker_wind_ellement_bonus_speed_per_instance"                    "Bonus Movement speed per instance : "
-		"DOTA_Tooltip_ability_invoker_wind_ellement_bonus_attack_speed_per_instance"                    "%Bonus attack speed per instance : "
-		"DOTA_Tooltip_ability_invoker_wind_ellement_ellement_power"                    "Element power : "
-
-		"DOTA_Tooltip_ability_invoker_combine"                                     "Element Combine"
-		"DOTA_Tooltip_ability_invoker_combine_Description"                    "The Elementalist combine the element to cast new spell \n\nElement power is the power of the element per instance , they are used to cast advanced spell. They are also used to know the power of the spell\n\nThe spell are choose based on the part the element take on the total element pool , it's completely different from the dota's invoker system"
-		"DOTA_Tooltip_ability_invoker_combine_Note0"                    "you gain acces to now orb every 10 level : lvl 1 : 1 orb , lvl 10 : 2 orb , lvl 20 : 3 orb , lvl 30 : 4 orb : lvl 40 : 5 orb , lvl 50 : 6orb (not more than 6 orb for now)"
-
-		"DOTA_Tooltip_ability_invoker_reset"                                     "Element Reset"
-		"DOTA_Tooltip_ability_invoker_reset_Description"                    "This skill allow you to reset your current element to nil "
-		"DOTA_Tooltip_ability_invoker_reset_Note0"                    ""
-
-
-		
-		"DOTA_Tooltip_ellement_wind_modifiers"                                      "Wind ellement"
-
-		"DOTA_Tooltip_ellement_ice_modifiers"                                      "Ice ellement"
-
-		"DOTA_Tooltip_ellement_fire_modifiers"                                      "Fire ellement"
-
-		"DOTA_Tooltip_speed_aura_display"                                      "Wind Blessing"
-
-		"DOTA_Tooltip_power_aura_display"                                      "Fire Blessing"
-
-		"DOTA_Tooltip_slow_modifier_caster"                                      "Ice Blessing"
-
-		"DOTA_Tooltip_modifier_arcana_laser_charge"                              "Arcana laser"
-
-		"DOTA_Tooltip_health_regen_display"                                      "Increased Life Regen"
-
-		"DOTA_Tooltip_fire_dot_display"                                      "Burning"
-
-		"DOTA_Tooltip_iceflame_display"                                      "Ice-Flame's Cold burn"
-
-		"DOTA_Tooltip_ice_freeze_display"                                      "Frozen"
-
-		"DOTA_Tooltip_slow_modifier_display"                                      "Slow"
-
-		"DOTA_Tooltip_armor_debuff_display"                                      "Armor reduction"
-
-		"DOTA_Tooltip_ability_spirit_breaker_haste_armor"                                     "Haste Armor"
-		"DOTA_Tooltip_ability_spirit_breaker_haste_armor_Description"                    "Spirit breaker use his movement speed as a armor to ressist ennemy attacks."
-		"DOTA_Tooltip_ability_spirit_breaker_haste_armor_Note0"                    ""
-		"DOTA_Tooltip_ability_spirit_breaker_haste_armor_speed_to_armor_percent_tooltip"                    "%Speed to armor: "
-
-		"DOTA_Tooltip_haste_armor_bonus"                                "Haste Armor Buff"
-		"DOTA_Tooltip_haste_armor_bonus_Description"                                                             " %MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% Bonus armor from movement speed"
-
-		"DOTA_Tooltip_ability_spirit_breaker_ground_smash"                                     "Nether Smash"
-		"DOTA_Tooltip_ability_spirit_breaker_ground_smash_Description"                    "Spirit breaker smash the ground with the power of nether , dealing damage and slowing all nearby enemies."
-		"DOTA_Tooltip_ability_spirit_breaker_ground_smash_Note0"                    ""
-		"DOTA_Tooltip_ability_spirit_breaker_ground_smash_damage"                    "Damage : "
-		"DOTA_Tooltip_ability_spirit_breaker_ground_smash_slow_movement_speed"                    "Movement Speed: "
-		"DOTA_Tooltip_ability_spirit_breaker_ground_smash_radius"                    "Radius : "
-
-		"DOTA_Tooltip_ability_necro_death_aura"                                     "Weakness Aura"
-		"DOTA_Tooltip_ability_necro_death_aura_Description"                    "Necro weaken all nearby ennemy , Increasing magical damage they receive."
-		"DOTA_Tooltip_ability_necro_death_aura_Note0"                    "Necro's oponements fell weaker"
-		"DOTA_Tooltip_ability_necro_death_aura_magical_ress_red"                   "%Magical damage Increase : "
-		"DOTA_Tooltip_ability_necro_death_aura_radius"                    "Radius : "
-		
-		
-		"DOTA_Tooltip_ability_special_bonus_unique_necrophos_6"				"+{s:value} Weakness Aura Radius"
-
-		"DOTA_Tooltip_ability_ebf_gods_strength"                                                                "God's Strength"
-		"DOTA_Tooltip_ability_ebf_gods_strength_Description"                                    "<font color='#70EA72'>Sven gains bonus strength and damage. Upon killing an enemy unit while under the effects of God's Strength, all of Sven's ability cooldowns are reduced. This effect can occur an unlimited amount of times.</font>"
-		"DOTA_Tooltip_ability_ebf_gods_strength_Lore"                                                   "With the strength that shattered the Sacred Helm, the Rogue Knight stands unopposed in melee combat."
-		"DOTA_Tooltip_ability_ebf_gods_strength_bonus_strength"                                 "BONUS STRENGTH:"
-		"DOTA_Tooltip_ability_ebf_gods_strength_cooldown_reduction_per_kill"    "COOLDOWN REDUCTION PER KILL:"
-		"DOTA_Tooltip_ability_ebf_gods_strength_gods_strength_damage"                   "%BONUS DAMAGE:"
-	   
-		"DOTA_Tooltip_ability_huskar_burning_spear2"                                                            "Burning Spear"
-		"DOTA_Tooltip_ability_huskar_burning_spear2_Description"                                        "<font color='#70EA72'>Huskar infuses his life with his spear to deal massive damage.</font>"
-		"DOTA_Tooltip_ability_huskar_burning_spear2_Lore"                                               "With the strength of sacrifice, Huskar can deal extra damage to enemies."
-		"DOTA_Tooltip_ability_huskar_burning_spear2_duratio_tooltip"                                    "DURATION:"
-
-
-
-
-
-	   
-		"DOTA_Tooltip_ability_huskar_life_break2"                                                               "Life Break"
-		"DOTA_Tooltip_ability_huskar_life_break2_Description"                                   "<font color='#70EA72'>Huskar sacrifices huge amounts of HP to deal extra damage.</font>"
-		"DOTA_Tooltip_ability_huskar_life_break2_Lore"                                                  "Huskar puts huge effort in damaging whomever stands in his path."
-		"DOTA_Tooltip_ability_huskar_life_break2_tooltip_health_cost_percent"   "HEALTH COST:"
-		"DOTA_Tooltip_ability_huskar_life_break2_tooltip_health_damage"                 "DAMAGE:"
-		"DOTA_Tooltip_ability_huskar_life_break2_health_movespeed"                              "MOVE SPEED REDUCTION:"
-		"DOTA_Tooltip_ability_huskar_life_break2_health_cooldown_scepter"               "COOLDOWN WITH SCEPTER:"
-		"DOTA_Tooltip_ability_huskar_life_break2_health_tooltip_health_damage_scepter"  "DAMAGE WITH SCEPTER:"
-
-
-		"DOTA_Tooltip_ability_terrorblade_sunder2"                                                              "Sunder"
-		"DOTA_Tooltip_ability_terrorblade_sunder2_Description"                                  "<font color='#70EA72'>Can swap a small part of health with a boss.</font>"
-		"DOTA_Tooltip_ability_terrorblade_sunder2_Lore"                                                 "...."
-		"DOTA_Tooltip_ability_terrorblade_sunder2_hit_point_minimum_pct"                "MINIMUM HEALTH SWAP:"
-
-		"DOTA_Tooltip_ability_terrorblade_metamorphosis2"                                                               "Metamorphosis"
-		"DOTA_Tooltip_ability_terrorblade_metamorphosis2_Description"                                   "<font color='#70EA72'>Become the monster that enemies will fear!</font>"
-		"DOTA_Tooltip_ability_terrorblade_metamorphosis2_Lore"                                                  "During his imprisonment in Foulfell, Terrorblade learned to turn himself into a darker being."
-		"DOTA_Tooltip_ability_terrorblade_metamorphosis2_bonus_damage"                                  "Bonus Damage:"
-		"DOTA_Tooltip_ability_terrorblade_metamorphosis2_duration"                                              "Duration: "
-
-		"DOTA_Tooltip_ability_enigma_midnight_pulse2"                                                           "Midnight pulse"
-		"DOTA_Tooltip_ability_enigma_midnight_pulse2_Description"                                       "Lots of damage for late game, nothing more"
-		"DOTA_Tooltip_ability_enigma_midnight_pulse2_Lore"                                                      "Enigma summons the forces of the universe on command, focusing their energy on his enemies, causing them to weaken."
-		"DOTA_Tooltip_ability_enigma_midnight_pulse2_radius"                                            "Radius:"      
-		"DOTA_Tooltip_ability_enigma_midnight_pulse2_damage_percent"                            "Damage (%):"  
-		"DOTA_Tooltip_ability_enigma_midnight_pulse2_duration"                                          "Duration:"    
-
-	   
-		"DOTA_Tooltip_ability_life_stealer_infest2"                                                             "Infest"
-		"DOTA_Tooltip_ability_life_stealer_infest2_Description"                                 "<font color='#70EA72'>Deals massive damage in a large radius (infest your allies).</font>"
-		"DOTA_Tooltip_ability_life_stealer_infest2_Lore"                                                        ""
-		"DOTA_Tooltip_ability_life_stealer_infest2_radius"                                              "RADIUS:"      
-		"DOTA_Tooltip_ability_life_stealer_infest2_damage"                                              "DAMAGE:"      
-
-		"DOTA_Tooltip_ability_boss_lifestealer_feast2"                                                              "Feast"
-		"DOTA_Tooltip_ability_boss_lifestealer_feast2_Description"                                  "<font color='#70EA72'>Steal a percentage of health from an enemy with each hit.</font>"
-		"DOTA_Tooltip_ability_boss_lifestealer_feast2_Lore"                                                 "Na'ix had learn to use his abilities to regen on these strong bosses"
-		"DOTA_Tooltip_ability_boss_lifestealer_feast2_hp_leech_percent"                             "LIFE STEAL:"  
-		
-		"DOTA_Tooltip_ability_kunkka_tidal_wave_damage"											"DAMAGE:"
-		"DOTA_Tooltip_ability_lycan_summon_wolves_Description"									"Summons two wolves to fight for Lycan.  Level 2+ wolves have Permanent Invisibility, and level 4+ wolves have Cripple."
-		"DOTA_Tooltip_ability_antimage_mana_break_percent_damage_per_burn"						"%MANA BURNED TO DAMAGE:"
-		
 		"DOTA_Tooltip_ability_morphling_morph_str_points_per_tick"								"STRENGTH SHIFT PER TICK:"
 		"DOTA_Tooltip_ability_morphling_morph_agi_points_per_tick"								"AGILITY SHIFT PER TICK:" 
 		"DOTA_Tooltip_ability_morphling_equalize"												"Equalize"
 		"DOTA_Tooltip_ability_morphling_equalize_Description"									"Morphling gains bonus strength and agility."
 		"DOTA_Tooltip_ability_morphling_equalize_bonus_strength"								"BONUS STRENGTH:"
 		"DOTA_Tooltip_ability_morphling_equalize_bonus_agility"									"BONUS AGILITY:" 
-		
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_morphling_8"									"+{s:value}% Equalize Stats"
 		
@@ -3359,19 +3020,6 @@
 //TOMB==============================================================================================================================
 		"DOTA_Tooltip_ability_item_tombstone"                                                           "Resurrect Teammate"
 		"DOTA_Chat_Tombstone_Pinged"                                                                            "[ALLIES] Fallen teammate here."
-
-		"DOTA_Tooltip_ability_item_melee_rage"                                            "Beastitachi's Wood"
-		"DOTA_Tooltip_ability_item_melee_rage_Description"                                "Passive: Pure Cleave - A part of your damage is set to <font color='#FF1010'>PURE</font> and cleaves to nearby ennemies.Cleave only works on Melee units \n also grand bonus evasion , true strike and can apply minibash to ennemy 5%% "
-		"DOTA_Tooltip_ability_item_melee_rage_bonus_damage"                               "+$damage"
-		"DOTA_Tooltip_ability_item_melee_rage_bonus_all"                               "+$all"
-		"DOTA_Tooltip_ability_item_melee_rage_bonus_agility"                               "+$agi"
-		"DOTA_Tooltip_ability_item_melee_rage_bonus_health_regen"                         "BONUS HEALTH REGEN:"
-		"DOTA_Tooltip_ability_item_melee_rage_bonus_mana_regen"                           "BONUS MANA REGEN:"
-		"DOTA_Tooltip_ability_item_melee_rage_radius"                                     "RADIUS:"
-		"DOTA_Tooltip_ability_item_melee_rage_splash_damage"                              "Bonus Damage: %"
-		"DOTA_Tooltip_ability_item_melee_rage_base_attack_time"                           "BASE ATTACK TIME:"
-		"DOTA_Tooltip_ability_item_melee_rage_bonus_evasion"                                            "%+$evasion"
-		"DOTA_Tooltip_ability_item_melee_rage_bonus_attack_speed"                                       "+$attack"
 
 		"DOTA_Tooltip_scale_display"                                                       "Power Augmentation of Asura item"
 		"DOTA_Tooltip_scale_display_Decription"                                                       "Each Stack increase Asura item power"
@@ -3448,14 +3096,6 @@
 		"DOTA_Tooltip_ability_item_asura_lens_spell_lifesteal_amp"				"%+Spell Lifesteal Amplification"                
 		"DOTA_Tooltip_ability_item_asura_lens_Lore"								"Polished with the incantation of his final breath, the gift of a dying mage to his sickly son."
 
-
-		"DOTA_Tooltip_ability_item_element_refresher"                                         "Elemental Refresher"
-		"DOTA_Tooltip_ability_item_element_refresher_Description"                             "Useable only by Elementalist. Refreshes all Elementalist spells on cooldown. Ammount of max charge and charge creation time depend on elementalist's level"
-		"DOTA_Tooltip_ability_item_element_refresher_Note0"                                   "the charge ammount formulais : math.ceil (10 * ((25+level)/100)^1.05)\nthe charge creation time formula is : (30 * (1/level)^0.2)*octarine_multiplier"
-		"DOTA_Tooltip_ability_item_element_refresher_Lore"                                    ""
-
-		"DOTA_Tooltip_ability_item_refresher_Note0"                                         "Doesn't refresh 'Killer Moves: Serious Arrow'"
-
 		"DOTA_Tooltip_ability_item_asura_sword"                                     "Asura Sword"
 		"DOTA_Tooltip_ability_item_asura_sword_Description"                              "This weapon will absord your health over time if you don't replenish his blood thirst"
 		"DOTA_Tooltip_ability_item_asura_sword_Lore"                                      "Stop take this weapon seriously , if you can't afford it , then maybe you are not supposedto , if you find it op , then don't use it , if you don't like it , then deal with it ,if you like those lore , then you can notice it in the comment , if you realy still read this , then you lose time , if you realy like it , then continue , if you died because you read this , then you should take more care of you , if you don't like the ammount of 'if you ,then' , then i'm sorry for you , if you complain about anything , I'll ban you from Epic Boss Fight , if you don't know yet ,then there is a twitter a reddit and a FUCKING FAQ THREAD, if you read faq , then you are a good boy , if you are mad at the engrish , then you are"
@@ -3493,40 +3133,6 @@
 		"DOTA_Tooltip_ability_item_asura_staff_damage_per_int"                            "Burts Damage per int :"
 		"DOTA_Tooltip_ability_item_asura_staff_range_tooltip"                             "Range :"
 
-		"DOTA_Tooltip_ability_item_pixels_guard"                                          "Pixels Guard"
-		"DOTA_Tooltip_ability_item_pixels_guard_Description"                              "Grants magic immunity to allies and slow ennemy for 65%% of their speed in a radius of 1200 for 15 seconds."
-		"DOTA_Tooltip_ability_item_pixels_guard_Note0"                                    ""
-		"DOTA_Tooltip_ability_item_pixels_guard_Lore"                                     ""
-		"DOTA_Tooltip_ability_item_pixels_guard_buff_duration"                            "Duration:"
-		"DOTA_Tooltip_ability_item_pixels_guard_blast_movement_speed_debuff"              "%Movement Speed Debuff:"
-		"DOTA_Tooltip_ability_item_pixels_guard_bonus_armor"                              "+$armor"
-		"DOTA_Tooltip_ability_item_pixels_guard_bonus_int"                                "+$int"
-
-		"DOTA_Tooltip_ability_item_soul_gatherer"                                         "Soul Gauntlet"
-		"DOTA_Tooltip_ability_item_soul_gatherer_Description"                             "Passive - Soul Steal : Have 7.5%% of stealing an enemy soul , cursing him for 3 sec and granting you bonus attack range for 20 seconde"
-		"DOTA_Tooltip_ability_item_soul_gatherer_Note0"                                   ""
-		"DOTA_Tooltip_ability_item_soul_gatherer_Lore"                                    "Absolutly not belong to a oni called soki. and was never used to collect souls befores"
-		"DOTA_Tooltip_ability_item_soul_gatherer_cursed_chance"                           "Soul Steal chance:"
-		"DOTA_Tooltip_ability_item_soul_gatherer_cursed_duration"                         "Curse duration:"
-		"DOTA_Tooltip_ability_item_soul_gatherer_bonus_damage"                            "+$damage"
-		"DOTA_Tooltip_ability_item_soul_gatherer_bonus_all"                               "+$all"
-		"DOTA_Tooltip_ability_item_soul_gatherer_bonus_range"                             "+Attack range"
-		"DOTA_Tooltip_ability_item_soul_gatherer_bonus_range_per_soul"                             "+Bonus Range per Souls"
-
-		"DOTA_Tooltip_gauntlet_bonus_soul"      "Soul Collected"
-		"DOTA_Tooltip_gauntlet_bonus_soul_Description"      "Each soul increase attack range by 50"
-		"DOTA_Tooltip_ability_special_bonus_centaur_stomp_radius"         "0.15s BAT"
-		"DOTA_Tooltip_ability_special_bonus_alchemist_stats_1000"         "+1000 Attributes"
-		"DOTA_Tooltip_ability_special_bonus_doom_randomonium"         "Additional 333 Pure/Magic/Composite Damage"
-		"DOTA_Tooltip_ability_special_bonus_lina_intellectual_xd"         "+5000 Intelligence. *why not?*"
-		"DOTA_Tooltip_ability_special_bonus_naga_ayylmao"         "*Have you heard about Sicko Mode?*"
-		"DOTA_Tooltip_ability_special_bonus_slark_ayylmao"         "*Have you heard about Sicko Mode?*"
-		"DOTA_Tooltip_ability_special_bonus_storm_prikol"         "Ok. Random time."
-		"DOTA_Tooltip_ability_special_bonus_storm_prikol_Description" "You will get 1 move speed, or, You will get 10000 mana regeneration"
-		"DOTA_Tooltip_ability_special_bonus_sven_imba_Description" "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE_POST_CRIT 10000"
-		"DOTA_Tooltip_ability_special_bonus_sven_imba"         "Developer check. Choose yourself."
-		"DOTA_Tooltip_ability_special_bonus_treant_socsok"         "0.01s BAT."
-		"DOTA_Tooltip_ability_special_bonus_treant_socsok_Description" "God bless you and your game, dirty abuser."
 		"DOTA_Tooltip_ability_special_bonus_unique_spectre_4"	"+{s:value} Trauma Armor Reduction"
 		"DOTA_Tooltip_ability_special_bonus_unique_terrorblade_2"	"+16 Demon Frenzy Attack Speed"
 		"DOTA_Tooltip_ability_special_bonus_unique_terrorblade_6"	"+5% Demon Frenzy Evasion"
@@ -3739,6 +3345,7 @@
 		"DOTA_Tooltip_ability_special_bonus_unique_furion_7_Description"		"The first 2 Sprout Trees that are destroyed create a Greater Treant in their place."
 		
 		"DOTA_Tooltip_ability_furion_wrath_of_nature_Description"				"Damaging energy bounces around the map, striking enemies close to the cast point that are in vision. Each unique enemy hit beyond the first adds damage. Enemies that are hit by this spell grant you bonus damage for %kill_damage_duration% seconds.\nCan hit the same enemy multiple times, but will prioritize finding new targets first."
+		"DOTA_Tooltip_ability_furion_wrath_of_nature_max_targets"				"MAX BOUNCES:"
 		
 		"DOTA_Tooltip_modifier_furion_wrath_of_nature_damage"					"Wrath of Nature - Damage"
 		"DOTA_Tooltip_modifier_furion_wrath_of_nature_damage_Description"		"Attack damage increased by %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE%"
@@ -3809,10 +3416,94 @@
 		"DOTA_Tooltip_modifier_spirit_breaker_bulldoze_active"					"Bulldoze - Active"
 		"DOTA_Tooltip_modifier_spirit_breaker_bulldoze_active_Description"		"Gaining movement speed, status resistance and magical resistance."
 		
+		"DOTA_Tooltip_ability_obsidian_destroyer_astral_imprisonment_Description"	"Places a target unit into an astral prison. The hidden unit is invulnerable and disabled. When the astral prison implodes, it deals damage to the target and Outworld Destroyer's maximum mana is increased."
+		"DOTA_Tooltip_ability_obsidian_destroyer_astral_imprisonment_mana_capacity_steal"	"MANA CAPACITY GAIN:"
+		
+		"DOTA_Tooltip_modifier_obsidian_destroyer_astral_imprisonment_int_gain"	"Astral Imprisonment - Mana Gain"
+		"DOTA_Tooltip_modifier_obsidian_destroyer_astral_imprisonment_int_gain_Description"	"Maximum mana increased by %dMODIFIER_PROPERTY_EXTRA_MANA_BONUS%."
+		
 		"DOTA_Tooltip_ability_obsidian_destroyer_sanity_eclipse_Description"	"Unleashes a psychic blast that deals damage to enemies based on the difference between your mana and the target's mana. Sanity's Eclipse can hit units trapped by Astral Imprisonment. Deals %summon_multiplier%x damage to summoned units."
 		
+		"DOTA_Tooltip_ability_antimage_mana_break_Description"					"Burns an opponent's mana on each attack and deals damage equal to a percentage of the mana burnt. The damage is dealt regardless of the mana burned.\n\nIf this leaves the enemy with no mana, their attack speed and movement speed are slowed and the damage dealt becomes Pure."
+		
+		"DOTA_Tooltip_ability_night_stalker_crippling_fear_Description"			"Night Stalker horrifies all nearby enemies, causing them to become silenced and miss a percentage of their attacks while near him.\n\nAt night, the effect lasts longer and he passively causes enemies within the ability's radius to miss attacks. This miss chance stacks with the active miss chance."
+		"DOTA_Tooltip_ability_night_stalker_crippling_fear_night_miss"			"%NIGHT PASSIVE MISS CHANCE:"
+		"DOTA_Tooltip_ability_night_stalker_crippling_fear_miss_chance"			"%ACTIVE MISS CHANCE:"
+		"DOTA_Tooltip_modifier_night_stalker_crippling_fear_active"				"Crippling Fear - Active"
+		"DOTA_Tooltip_modifier_night_stalker_crippling_fear_active_Description"	"Fearing those around you."
+		
+		"DOTA_Tooltip_modifier_night_stalker_crippling_fear_silence"			"Crippling Fear - Silence"
+		"DOTA_Tooltip_modifier_night_stalker_crippling_fear_silence_Description"	"Silenced and missing %dMODIFIER_PROPERTY_MISS_PERCENTAGE%%% of your attacks."
+		
+		"DOTA_Tooltip_modifier_night_stalker_crippling_fear_miss"				"Crippling Fear - Miss"
+		"DOTA_Tooltip_modifier_night_stalker_crippling_fear_miss_Description"	"Missing %dMODIFIER_PROPERTY_MISS_PERCENTAGE%%% of your attacks."
+		
+		"DOTA_Tooltip_ability_night_stalker_hunter_in_the_night_Description"	"Night Stalker gains attack speed and movement speed.\nThe bonuses are reduced to %daytime_pct%%% during daytime."
+		
+		"DOTA_Tooltip_ability_doom_bringer_devour_Description"					"Attempts to consume the target. A creep will be instantly destroyed, while a creep-hero instead takes damage equal to %hero_damage%%% of Doom's Strength.\n\nIf Doom devours a Neutral creep, he acquires any special abilities that it possessed, and amplifies their damage. If autocast is deactivated, Doom will not acquire the creep's abilities.\n\nRegardless, he starts consuming the essence he consumed, gaining armor temporarily. Duration is always %duration% seconds."
+		"DOTA_Tooltip_ability_doom_bringer_devour_creep_damage_multiplier"		"NEUTRAL SPELL DAMAGE MULTIPLIER:"
+		
+		"DOTA_Tooltip_modifier_doom_bringer_devour_eating"						"Devour - Eating"
+		"DOTA_Tooltip_modifier_doom_bringer_devour_eating_Description"			"Gaining armor while digesting and bonus gold when this expires successfully."
+		
+		"DOTA_Tooltip_ability_necrolyte_death_pulse_damage"						"DAMAGE:"
+		"DOTA_Tooltip_modifier_necrolyte_death_seeker_debuff"					"Death Seeker"
+		"DOTA_Tooltip_modifier_necrolyte_death_seeker_debuff_Description"		"Disarmed and taking more magic damage"
+		
+		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_Description"			"Necrophos stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time, affects creeps more.\n\nPassively provides regen for %regen_duration% seconds for each unit Necrophos that dies within Heartstopper Aura's radius. The regeneration is increased if Necrophos got the kill or if the unit was a creep-hero."
+		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_aura_damage"			"%HEALTH DECAY:"
+		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_creep_damage"			"%CREEP HEALTH DECAY:"
+		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_health_regen"			"HEALTH REGEN PER KILL:"
+		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_mana_regen"			"MANA REGEN PER KILL:"
+		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_hero_multiplier"		"HERO REGEN MULTIPLIER:"
+		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_kill_multiplier"		"KILL REGEN MULTIPLIER:"
+		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_regen_duration"		"REGEN DURATION:"
+		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_scepter_multiplier"	"GHOST SHROUD MULTIPLIER:"
+		"DOTA_Tooltip_modifier_necrophos_heart_stopper_passive_degen"			"Heartstopper Aura - Debuff"
+		"DOTA_Tooltip_modifier_necrophos_heart_stopper_passive_degen_Description"	"Losing health."
+		"DOTA_Tooltip_modifier_necrophos_heart_stopper_passive_degen"			"Heartstopper Aura - Debuff"
+		"DOTA_Tooltip_modifier_necrophos_heart_stopper_passive_degen_Description"	"Losing health."
+		"DOTA_Tooltip_ability_special_bonus_unique_necrophos_2"					"+{s:bonus_aura_damage}%/{s:bonus_creep_damage}% Heartstopper Aura Damage"
+		
+		"DOTA_Tooltip_ability_necrolyte_sadist_Description"						"Necrophos slips into the realm that separates the living from the dead. He emits an aura that slows enemies around him. While in this form, he takes additional magic damage, but he becomes immune to physical damage and his restorative powers are amplified.\n\nThe cooldown of this ability only starts when the effect ends."
+		"DOTA_Tooltip_ability_necrolyte_sadist_abilitycooldown"					"COOLDOWN:"
+		"DOTA_Tooltip_modifier_necrolyte_sadist_ethereal"						"Ghost Shroud - Buff"
+		"DOTA_Tooltip_modifier_necrolyte_sadist_ethereal_Description"			"Immune to physical damage, taking more magical damage, restoration improved."
+		"DOTA_Tooltip_modifier_necrolyte_sadist_ethereal_slow"					"Ghost Shroud - Debuff"
+		"DOTA_Tooltip_modifier_necrolyte_sadist_ethereal_slow_Description"		"Slowed."
+		
+		"DOTA_Tooltip_ability_necrolyte_reapers_scythe_Description"				"Stuns the target enemy hero, then deals damage based on how much life it is missing. If an enemy dies while affected by Reaper's Scythe, Necrophos's other abilities are improved forever. Any kill under this effect is considered a kill for Heartstopper Aura."
+		"DOTA_Tooltip_ability_necrolyte_reapers_scythe_death_pulse_bonus_heal"	"DEATH PULSE BONUS HEAL:"
+		"DOTA_Tooltip_ability_necrolyte_reapers_scythe_death_pulse_bonus_dmg"	"DEATH PULSE BONUS DAMAGE:"
+		"DOTA_Tooltip_ability_necrolyte_reapers_scythe_heartstopper_bonus_hp_regen"	"HEARTSTOPPER BONUS HP REGEN:"
+		"DOTA_Tooltip_ability_necrolyte_reapers_scythe_heartstopper_bonus_mp_regen"	"HEARTSTOPPER BONUS MP REGEN:"
+		"DOTA_Tooltip_ability_necrolyte_reapers_scythe_sadist_bonus_duration"	"GHOST SHROUD BONUS DURATION:"
+		
+		"DOTA_Tooltip_modifier_necrolyte_reapers_scythe_upgrader"				"Reaper's Scythe - Upgrade"
+		"DOTA_Tooltip_modifier_necrolyte_reapers_scythe_upgrader_Description"	"Your other abilities are improved for each life taken."
+		
+		"DOTA_Tooltip_ability_shredder_whirling_death_Description"				"Timbersaw whirls extremely sharp edges, damaging enemies and destroying trees around him in an area. Whirling Death will deal bonus damage per tree destroyed.\n\nWhirling Death also reduces the base armor and base damage of a unit affected for a duration."
+		"DOTA_Tooltip_ability_shredder_whirling_death_stat_loss_pct"			"%BASE ARMOR AND DAMAGE LOSS:"
+		
+		"DOTA_Tooltip_modifier_shredder_whirling_death_enemy"					"Whirling Death - Debuff"
+		"DOTA_Tooltip_modifier_shredder_whirling_death_enemy_Description"		"Armor and attack damage reduced."
+		
+		"DOTA_Tooltip_ability_zuus_static_field_Description"					"Zeus shocks any enemy that is hit by his abilities or his attacks, dealing damage equal to a percentage of their current health. The damage is increased against creeps and attacks deal less damage."
+		"DOTA_Tooltip_ability_zuus_static_field_damage_health_pct_spell"		"%CURRENT HEALTH DMG SPELLS:"
+		"DOTA_Tooltip_ability_zuus_static_field_damage_health_pct_attack"		"%CURRENT HEALTH DMG ATTACKS:"
+		"DOTA_Tooltip_ability_zuus_static_field_creep_health_pct_spell"			"%CREEP HEALTH DMG SPELL:"
+		"DOTA_Tooltip_ability_zuus_static_field_creep_health_pct_attack"		"%CREEP HEALTH DMG ATTACKS:"
+		
+		
+			"damage_health_pct_spell"	"2.25"
+			"damage_health_pct_attack"	"0.25"
+			"creep_health_pct_spell"	"8"
+			"creep_health_pct_attack"	"0.8"
+		
+		"DOTA_Tooltip_ability_special_bonus_unique_zeus_4"						"+{s:bonus_damage}% Thundergod's Wrath Damage"
 		// NEUTRALS
-		"DOTA_Tooltip_Ability_item_eye_of_the_vizier_mana_reduction_pct"					"%+Max Mana"
+		"DOTA_Tooltip_Ability_item_eye_of_the_vizier_mana_reduction_pct"		"%+Max Mana"
+		
 		// GENERIC TALENTS
 		"DOTA_Tooltip_ability_special_bonus_hp_130000"				"+{s:value} Health"
 		"DOTA_Tooltip_ability_special_bonus_hp_24000"				"+{s:value} Health"
