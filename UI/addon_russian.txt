@@ -9,11 +9,7 @@
 	"bulletin_board"				"Информация"
 	"open_board"					"Открыть информационную панель EBF"
 	"tab_general"					"Общая информация"
-<<<<<<< Updated upstream
 	"tab_leaderboard"				"Топ игроков"
-=======
-	"tab_leaderboard"				"Топ 10"
->>>>>>> Stashed changes
 	"tab_patchnotes"				"Изменения"
 	"tab_donations"					"Пожертвования"
 	"Discord"						"EpicBossFight Discord"
