@@ -9,12 +9,17 @@
 	"bulletin_board"				"Информация"
 	"open_board"					"Открыть информационную панель EBF"
 	"tab_general"					"Общая информация"
-	"tab_profile"					"Профиль"
+	"tab_leaderboard"				"топ 10"
 	"tab_patchnotes"				"Изменения"
 	"tab_donations"					"Пожертвования"
 	"Boosty"						"Поддержите нас на Boosty!"
 	"Discord"						"EpicBossFight Discord"
 	"Patreon"						"Поддержите нас на Patreon!"
+
+	"leadbrd_total"					"Игр сыграно"
+	"leadbrd_win"					"Побед"
+	"leadbrd_loss"					"Поражений"
+	"leadbrd_wr"					"Доля побед"
 
 	//Уровни значков
 	"discord_sup"					"Значок сообщества"

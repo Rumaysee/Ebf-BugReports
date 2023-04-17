@@ -9,12 +9,17 @@
 	"bulletin_board"		"Dashboard"
 	"open_board"			"Open EBF Dashboard"
 	"tab_general"			"General info"
-	"tab_profile"			"PROFILE"
+	"tab_leaderboard"		"leaderboard"
 	"tab_patchnotes"		"patchnotes"
 	"tab_donations"			"donations"
 	"Boosty"				"Support us on Boosty!"
 	"Discord"				"EpicBossFight Discord"
 	"Patreon"				"Support us on Patreon!"
+
+	"leadbrd_total"			"Total games"
+	"leadbrd_win"			"Wins"
+	"leadbrd_loss"			"Losses"
+	"leadbrd_wr"			"Win rate"
 
 	//Badge tiers
 	"discord_sup"			"Community Badge"
