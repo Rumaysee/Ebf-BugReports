@@ -9,7 +9,11 @@
 	"bulletin_board"				"Информация"
 	"open_board"					"Открыть информационную панель EBF"
 	"tab_general"					"Общая информация"
-	"tab_leaderboard"				"топ игроков"
+<<<<<<< Updated upstream
+	"tab_leaderboard"				"Топ игроков"
+=======
+	"tab_leaderboard"				"Топ 10"
+>>>>>>> Stashed changes
 	"tab_patchnotes"				"Изменения"
 	"tab_donations"					"Пожертвования"
 	"Discord"						"EpicBossFight Discord"
@@ -18,14 +22,14 @@
 	"leadbrd_loss"					"Поражений"
 	"leadbrd_wr"					"Доля побед"
 
-	"pat_button"					"Патреон"
-	"bst_button"					"Бусти"
+	"pat_button"					"Patreon"
+	"bst_button"					"Boosty"
 
 	"don_text_l1"					"Вы можете поддержать Epic Boss Fight и его разработчиков через Patreon или Boosty."
 	"don_text_l2"					"Каждое пожертвование приветствуется и будет вознаграждено следующим образом:"
-	"don_text_l3"					"Меценаты I категории получают роль в Discord и внутриигровой значок."
-	"don_text_l4"					"Меценаты II категории получают все вышеперечисленное + Aegis of the Immortal в начале игры."
-	"don_text_l5"					"Меценаты III категории получают все вышеперечисленное + случайные руны, которые появляются рядом с персонажем в начале раунда."
+	"don_text_l3"					"Меценат I категории получают роль в Discord и внутриигровой значок."
+	"don_text_l4"					"Меценат II категории получают все вышеперечисленное + Aegis of the Immortal в начале игры."
+	"don_text_l5"					"Меценат III категории получают все вышеперечисленное + случайные руны, которые появляются рядом с персонажем в начале раунда."
 	"don_text_l6"					"Этот специальный значок выдается игрокам по усмотрению разработчиков и за следующие заслуги:"
 	"don_text_l7"					"- Активность на Дискорд сервере Epic Boss Fight"
 	"don_text_l8"					"- Поиск ошибок и/или языковые переводы на GitHub Bug-Tracker"
@@ -55,13 +59,13 @@
 	"Scoreboard_MuteVoice"			"Отключить звук этого игрока"
 	"Scoreboard_MuteText"			"Отключить чат от этого игрока"
 
-	//Круглое голосование
+	//Очередное голосование
 	"Round_No"						"Нет"
 	"Round_Yes"						"Да"
 	"vote_skip"						"Вы проголосовали за пропуск"
 	"vote_no"						"Вы проголосовали против."
 	"Round_seconds"					"Секунд"
-	"Round_votes"					" голос"
+	"Round_votes"					"Голос"
 	"Round_s"						"а"
 	"Round_skipper"					"Авто пропуск голосования"
 	"Round_skip_btn"				"Пропустить"
