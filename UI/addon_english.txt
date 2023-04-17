@@ -12,14 +12,28 @@
 	"tab_leaderboard"		"leaderboard"
 	"tab_patchnotes"		"patchnotes"
 	"tab_donations"			"donations"
-	"Boosty"				"Support us on Boosty!"
 	"Discord"				"EpicBossFight Discord"
-	"Patreon"				"Support us on Patreon!"
-
 	"leadbrd_total"			"Total games"
 	"leadbrd_win"			"Wins"
 	"leadbrd_loss"			"Losses"
 	"leadbrd_wr"			"Win rate"
+
+	"pat_button"			"Patreon"
+	"bst_button"			"Boosty"
+
+	"don_text_l1"			"You can support Epic Boss Fight and it's developers via Patreon or Boosty."
+	"don_text_l2"			"Each donation is appreciated and will be rewarded as following:"
+	"don_text_l3"			"Tier 1 supporters receieve a role in Discord and an in-game Badge."
+	"don_text_l4"			"Tier 2 supporters receieve all the above + Aegis of the Immortal on game start."
+	"don_text_l5"			"Tier 3 supporters receieve all the above + random runes, that will spawn near the character on round start."
+	"don_text_l6"			"This special badge is awarded to players at developer discretion and by following merrits:"
+	"don_text_l7"			"- Activity at Epic Boss Fight Discord server"
+	"don_text_l8"			"- Bug-hunting and/or GitHub Bug-Tracker language translations"
+	"don_text_l9"			"- Assitance and guidance towards newbie players"
+	"don_discord_sup"		"Community Badge"
+	"don_supporter_1"		"Supporter I"
+	"don_supporter_2"		"Supporter II"
+	"don_supporter_3"		"Supporter III"
 
 	//Badge tiers
 	"discord_sup"			"Community Badge"

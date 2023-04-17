@@ -9,17 +9,31 @@
 "bulletin_board"                            "Інформація"
 "open_board"                                "Відкрити інформаційну панель EBF"
 "tab_general"                               "Загальна інформація"
-"tab_leaderboard"                           "топ 10"
+"tab_leaderboard"                           "топ гравців"
 "tab_patchnotes"                            "Зміни"
 "tab_donations"                             "Пожертвування"
-"Boosty"                                    "Підтримайте нас на Boosty!"
 "Discord"                                   "EpicBossFight Discord"
-"Patreon"                                   "Підтримайте нас на Patreon!"
-
 "leadbrd_total"                             "Ігр зіграно"
 "leadbrd_win"                               "Перемоги"
 "leadbrd_loss"                              "Поразок"
 "leadbrd_wr"                                "Доля перемог"
+
+"pat_button"					            "Патреон"
+"bst_button"				            	"Бусти"
+
+"don_text_l1"			            		"Ви можете підтримати Epic Boss Fight та його розробників через Patreon або Boosty."
+"don_text_l2"			            		"Кожна пожертва вітається і буде винагороджена таким чином:"
+"don_text_l3"			            		"Меценати I категорії беруть участь у Discord і значок.
+"don_text_l4"                               "Меценати II категорії отримують все вищеперелічене + Aegis of the Immortal на початку гри."
+"don_text_l5"			            		"Меценати III категорії отримують все вищеперелічене + випадкові руни, які з'являються поруч із персонажем на початку раунду."
+"don_text_l6"			            		"Цей спеціальний значок видається гравцям на розсуд розробників і за наступні заслуги:"
+"don_text_l7"			            		"- Активність на Дискорд сервері Epic Boss Fight"
+"don_text_l8"				            	"- Пошук помилок та/або мовні переклади на GitHub Bug-Tracker"
+"don_text_l9"				            	"- Допомога та підтримка гравців-початківців"
+"don_discord_sup"			            	"Значок спільноти"
+"don_supporter_1"			            	"Меценат I"
+"don_supporter_2"			            	"Меценат II"
+"don_supporter_3"		            		"Меценат III"
 
 //Рівні значків
 "discord_sup"                               "Значок спільноти"
