@@ -61,7 +61,7 @@
 	"vote_skip"						"Вы проголосовали за пропуск"
 	"vote_no"						"Вы проголосовали против."
 	"Round_seconds"					"Секунд"
-	"Round_votes"					"Голос"
+	"Round_votes"					" Голос"
 	"Round_s"						"а"
 	"Round_skipper"					"Авто пропуск голосования"
 	"Round_skip_btn"				"Пропустить"
