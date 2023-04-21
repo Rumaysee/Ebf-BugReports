@@ -8,18 +8,32 @@
 	//Dashboard
 	"bulletin_board"		"Dashboard"
 	"open_board"			"Open EBF Dashboard"
-	"tab_general"			"General info"
+	"tab_general"			"General"
 	"tab_leaderboard"		"leaderboard"
-	"tab_patchnotes"		"patchnotes"
+	"tab_modinfo"			"mod information"
 	"tab_donations"			"donations"
 	"Discord"				"EpicBossFight Discord"
 	"leadbrd_total"			"Total games"
 	"leadbrd_win"			"Wins"
 	"leadbrd_loss"			"Losses"
 	"leadbrd_wr"			"Win rate"
-
+	
+	"discord_button"		"EBF Discord"
+	"patch_button"			"patchnotes"
 	"pat_button"			"Patreon"
 	"bst_button"			"Boosty"
+
+	"gen_ann_1"				"Welcome to Epic Boss Fight, a thrilling game mode that challenges you and your team to battle against some of the most powerful bosses in the Dota. From giant beasts to demonic entities, these bosses will put your skills to the ultimate test."
+	"gen_ann_2"				"In Epic Boss Fight, the bosses start out relatively weak and easy to defeat. But as you progress through the game, they become increasingly stronger and more difficult to take down. Only the bravest and most skilled players will emerge victorious."
+	"gen_ann_3"				"Choose your strategy carefully, and don't underestimate the power of teamwork."
+	"gen_ann_4"				"Are you ready to take on the ultimate challenge? Join Epic Boss Fight and prove yourself as a best of Boss Slayers."
+
+	"tab_tab1"				"Overall"
+	"tab_tab2"				"Bosses"
+	"tab_tab3"				"Midas Gold"
+	"tab_tab4"				"MMR system"
+	"tab_tab5"				"Voting"
+	"tab_tab6"				"NewGame+"
 
 	"don_text_l1"			"You can support Epic Boss Fight and it's developers via Patreon or Boosty."
 	"don_text_l2"			"Each donation is appreciated and will be rewarded as following:"
