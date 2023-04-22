@@ -3,7 +3,7 @@
 	"Language"              "Русский"
 	"Tokens"
 	{              
-		"DOTA_Tooltip_ability_item_bag_of_gold"                                                 "Bag of gold"
+		"DOTA_Tooltip_ability_item_bag_of_gold"                                                 "Мешок золота"
 	   
 		"DOTA_Quest_Holdout_Round"                                      "Раунд %quest_round%"
 		"DOTA_Quest_Holdout_Round_Subtext"                      "%quest_current_value% убито / %quest_target_value% всего"
