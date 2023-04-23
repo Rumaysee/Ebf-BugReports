@@ -3,15 +3,15 @@
 	"Language"              "Русский"
 	"Tokens"
 	{              
-		"DOTA_Tooltip_ability_item_bag_of_gold"                                                 "Bag of gold"
+		"DOTA_Tooltip_ability_item_bag_of_gold"                                                 "Мешок золота"
 	   
 		"DOTA_Quest_Holdout_Round"                                      "Раунд %quest_round%"
 		"DOTA_Quest_Holdout_Round_Subtext"                      "%quest_current_value% убито / %quest_target_value% всего"
 		"DOTA_Quest_Holdout_PrepTime"                           "Раунд <font color='#FFEA5F'>%quest_round%</font> в <font color='#EA55FF'>%quest_current_value%</font> секундах"
 
 		"DOTA_Chat_TowerKilledGood"                                     "Башня была разрушена!"
-		"holdout_instructions_title"                                    "Возрождение эпического боя боссов"
-		"holdout_instructions_body"                                     "Добро пожаловать в Epic Boss Fight Reborn! Сражайтесь с эпическими волнами боссов, сложность которых возрастает! Чтобы помочь вам справиться с ними, используйте новые дорогие и мощные предметы и их апгрейды, которые позволят вам безгранично расти в силе. Среди предметов, которые можно обновить, - Desolator, Butterfly и Heart of Tarrasque! Кроме того, уровни и способности вашего героя были изменены, чтобы сделать его еще более могущественным. Удачи и веселья!"
+		"holdout_instructions_title"                                    "Epic Boss Fight Reborn"
+		"holdout_instructions_body"                                     "Сражайтесь с эпическими волнами боссов, сложность которых постоянно растет!\nЧтобы одолеть их, воспользуйтесь новыми, мощными предметами и их улучшенными версиями, которые позволят вам безгранично наращивать свою мощь. Среди предметов, которые можно улучшить, - Desolator, Butterfly и Heart of Tarrasque! Кроме того, характеристики вашего героя были изменены, чтобы сделать его еще более могущественным. Удачи и веселья вам!"
 		
 		"holdout_instructions_title_challenger"                            "Epic Boss Fight Challenger"
 		"holdout_instructions_body_challenger"                                    "Этот режим предназначен для хардкорных игроков Epic Boss Fight Reborn. У вас есть только одна жизнь, и вы не можете воскрешать союзников <font color='#FFBA0F'>\n Если вы никогда раньше не проходили режим "Невозможное", сыграйте на другой сложности! </font>"
@@ -55,7 +55,7 @@
 		"CANT_VOTE_IN_FIGHT"    "Вы не можете изменить сложность на арене."
 
 		// GENERIC ======================================================================================================
-		"DOTA_Tooltip_modifier_last_man_standing"										"Last Man Standing"
+		"DOTA_Tooltip_modifier_last_man_standing"										"Последний выживший"
 		"DOTA_Tooltip_modifier_last_man_standing_Description"							"Вы не можете стать невидимым, способности и предметы, игнорирующие истинное зрение, такие как Smoke of Deceit, игнорируют это."
 		
 		// BOSSES =======================================================================================================
